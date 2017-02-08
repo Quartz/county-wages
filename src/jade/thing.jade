@@ -1,0 +1,15 @@
+h2 Employment and wages by state
+
+select#sort
+	option(value="employment_1990") 1990 Employment
+	option(value="employment_2015") 2015 Employment
+	option(value="wages_1990") 1990 Wages
+	option(value="wages_1990") 2015 Wages
+	option(value="wages_change") Absolute wage growth
+	option(value="wages_pct_change") Relative wage growth
+	
+select#base
+	option(value="start") Base to 1990
+	option(value="zero") Base to zero
+	
+div#graphic
